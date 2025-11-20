@@ -1,5 +1,5 @@
 // Require images so webpack knows to include them
-const saitama1 = require('../public/image.png');
+const saitama1 = require('/Users/tszkitmark/Desktop/WWW/saitama/public/image.png'); 
 // const saitama2 = require('../public/saitama2.png');
 // const saitama3 = require('../public/saitama3.png');
 
@@ -16,7 +16,7 @@ const heroImg = document.getElementById('hero-img');
 const carouselNav = document.getElementById('carousel-nav');
 
 // Fallback image if none load
-const fallbackImage = 'https://placehold.co/300x400/ff9a9e/white?text=Saitama';
+const fallbackImage = '/Users/tszkitmark/Desktop/WWW/saitama/public/image.png';
 
 if (imageUrls.length === 0) {
   heroImg.src = fallbackImage;
